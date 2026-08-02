@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Local Font Site</title>
+    
+    <style>
+        /* 1. Define the local font */
+        @font-face {
+            font-family: 'MyLocalFont';
+            /* Point directly to the file name in your repo */
+            src: url('my-custom-font.woff2') format('woff2'); 
+            font-weight: normal;
+            font-style: normal;
+            font-display: swap;
+        }
+
+        /* 2. Apply the font to the page */
+        body {
+            font-family: 'MyLocalFont', sans-serif;
+            background-color: #f4f4f9;
+            color: #222;
+            max-width: 600px;
+            margin: 60px auto;
+            padding: 20px;
+            font-size: 1.2rem;
+            line-height: 1.5;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Local Font Title</h1>
+    <p>This text is rendering with a custom font file hosted directly on GitHub Pages.</p>
+
+</body>
+</html>
