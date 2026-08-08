@@ -1,14 +1,13 @@
 @font-face {
-    font-family: 'RoutedGothic_halfItalic';
-    /* Point directly to the file name in your repo */
-    src: url('fonts/RoutedGothic_halfItalic.woff2') format('woff2'); 
+    font-family: "RoutedGothic_halfItalic";
+    src: url("fonts/RoutedGothic_halfItalic.woff2") format("woff2"); 
     font-weight: normal;
     font-style: normal;
     font-display: swap;
 }
 
 body {
-    font-family: 'RoutedGothic_halfItalic', sans-serif;
+    font-family: "RoutedGothic_halfItalic", sans-serif;
     background-color: #FFFFFF;
     color: #231F20FF;
     max-width: 600px;
@@ -25,7 +24,7 @@ body {
   color: #231F20FF;
   text-decoration: none;
   border-radius: 5px;
-  font-family: 'RoutedGothic_halfItalic', sans-serif;
+  font-family: "RoutedGothic_halfItalic", sans-serif;
 }
 
 .btn_download:hover {
