@@ -1,0 +1,12 @@
+.btn_download {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #24292e; /* GitHub dark color */
+  color: #ffffff;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+}
+.btn_download:hover {
+  background-color: #0366d6; /* Blue hover effect */
+}
