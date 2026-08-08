@@ -1,12 +1,33 @@
+@font-face {
+    font-family: 'RoutedGothic_halfItalic';
+    /* Point directly to the file name in your repo */
+    src: url('fonts/RoutedGothic_halfItalic.woff2') format('woff2'); 
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+body {
+    font-family: 'RoutedGothic_halfItalic', sans-serif;
+    background-color: #FFFFFF;
+    color: #231F20FF;
+    max-width: 600px;
+    margin: 60px auto;
+    padding: 20px;
+    font-size: 1.2rem;
+    line-height: 1.5;
+}
+
 .btn_download {
   display: inline-block;
   padding: 10px 20px;
-  background-color: #24292e; /* GitHub dark color */
-  color: #ffffff;
+  background-color: #FFFFFF; /* GitHub dark color */
+  color: #231F20FF;
   text-decoration: none;
   border-radius: 5px;
-  font-weight: bold;
+  font-family: 'RoutedGothic_halfItalic', sans-serif;
 }
+
 .btn_download:hover {
   background-color: #0366d6; /* Blue hover effect */
 }
